@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>Enferno.Public.Azure</id>
+    <version>1.2.0.0</version>
+    <title>Enferno.Public.Azure</title>
+    <authors>Enferno AB</authors>
+    <owners>Enferno AB</owners>
+    <projectUrl>https://enfernopublic.codeplex.com/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Enferno Azure helpers.</description>
+    <releaseNotes>
+Updated Enferno packages and Enterprise Library to v6.
+  </releaseNotes>
+    <copyright>Copyright 2014</copyright>
+    <tags>Enferno Public Azure</tags>
+    <dependencies>
+      <dependency id="Enferno.Public" version="1.0.17" />
+      <dependency id="Microsoft.WindowsAzure.Caching" version="2.3.1.0" />
+      <dependency id="EnterpriseLibrary.WindowsAzure.TransientFaultHandling" version="5.1.1212.0" />
+      <dependency id="WindowsAzure.Storage" version="4.0.1" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="Enferno.Public.Azure\bin\Debug\Enferno.Public.Azure.dll" target="lib/net45" />
+    <file src="Enferno.Public.Azure\bin\Debug\Enferno.Public.Azure.pdb" target="lib/net45" />
+    <file src="Enferno.Public.Azure\**\*.cs" target="src" />
+  </files>
+</package>

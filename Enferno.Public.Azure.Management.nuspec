@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>Enferno.Public.Azure.Management</id>
+    <version>0.6.0-alpha5</version>
+    <title>Enferno.Public.Azure.Management</title>
+    <authors>Enferno AB</authors>
+    <owners>Enferno AB</owners>
+    <projectUrl>https://enfernopublic.codeplex.com/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Enferno Azure Management Library wrapper.</description>
+    <releaseNotes>Initial release</releaseNotes>
+    <copyright>Copyright 2014</copyright>
+    <tags>Enferno Public Azure Management</tags>
+    <dependencies>
+      <dependency id="log4net" version="2.0.3" />
+      <dependency id="Microsoft.Bcl" version="1.1.9" />
+      <dependency id="Microsoft.Bcl.Async" version="1.0.168" />
+      <dependency id="Microsoft.Bcl.Build" version="1.0.14" />
+      <dependency id="Microsoft.IdentityModel.Clients.ActiveDirectory" version="1.0.4" />
+      <dependency id="Microsoft.Net.Http" version="2.2.22" />
+      <dependency id="Microsoft.WindowsAzure.Common" version="1.1.1" />
+      <dependency id="Microsoft.WindowsAzure.Common.Dependencies" version="1.0.1" />
+      <dependency id="Microsoft.WindowsAzure.Common.Tracing.Log4Net" version="1.0.0" />
+      <dependency id="Microsoft.WindowsAzure.Management" version="1.2.0" />
+      <dependency id="Microsoft.WindowsAzure.Management.Compute" version="2.2.0" />
+      <dependency id="Microsoft.WindowsAzure.Management.Libraries" version="1.0.3" />
+      <dependency id="Microsoft.WindowsAzure.Management.MediaServices" version="1.1.0" />
+      <dependency id="Microsoft.WindowsAzure.Management.Network" version="2.1.0" />
+      <dependency id="Microsoft.WindowsAzure.Management.Scheduler" version="2.0.0" />
+      <dependency id="Microsoft.WindowsAzure.Management.Sql" version="1.1.1" />
+      <dependency id="Microsoft.WindowsAzure.Management.Storage" version="1.1.1" />
+      <dependency id="Microsoft.WindowsAzure.Management.WebSites" version="3.0.1-prerelease" />
+      <dependency id="Newtonsoft.Json" version="5.0.8" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="Enferno.Public.Azure.Management\bin\Debug\Enferno.Public.Azure.Management.dll" target="lib/net45" />
+    <file src="Enferno.Public.Azure.Management\bin\Debug\Enferno.Public.Azure.Management.pdb" target="lib/net45" />
+    <file src="Enferno.Public.Azure.Management\**\*.cs" target="src" />
+  </files>
+</package>
